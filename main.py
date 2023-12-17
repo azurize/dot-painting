@@ -22,7 +22,6 @@ def get_colors(image_path, num_colors):
 
 color_list = get_colors('image.jpg', 50)[1:-2]
 
-# Set starting point
 cursor.penup()
 cursor.setpos(-200, -200)
 
