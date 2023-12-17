@@ -24,7 +24,7 @@ def get_colors(image_path, num_colors):
 color_list = get_colors('image.jpg', 50)[1:-2]
 
 cursor.penup()
-cursor.setpos(-200, -200)
+cursor.setpos(-225, -200)
 
 
 def paint_dot_row():
