@@ -4,6 +4,7 @@ import random
 from turtle import Screen, Turtle
 
 cursor = Turtle()
+cursor.hideturtle()
 cursor.speed('fastest')
 screen = Screen()
 screen.colormode(255)
